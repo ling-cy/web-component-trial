@@ -3,14 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.5.0",
-    "@emotion/styled": "^11.3.0",
-    "@mui/material": "^5.12.3",
-    "@types/react": "^18.0.8",
-    "@types/react-dom": "^18.0.2",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-to-webcomponent": "^1.7.6"
+    "@emotion/react": "11.10.8",
+    "@emotion/styled": "11.10.8",
+    "@mui/material": "5.12.3",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.3",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-to-webcomponent": "1.7.6"
   },
   "scripts": {
     "start": "react-scripts start",

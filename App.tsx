@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
+import PropTypes from 'prop-types';
 
 type AppProps = {
   url?: string;
@@ -31,6 +32,12 @@ const App: React.FC<AppProps> = ({
       {text}
     </Button>
   );
+};
+
+App.propTypes = {
+  url: PropTypes.string,
+  color: PropTypes.string,
+  text: PropTypes.string,
 };
 
 export default App;
